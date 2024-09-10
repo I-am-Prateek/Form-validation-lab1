@@ -20,9 +20,9 @@ body {
 body h1 {
   margin: 20px;
 }
-#form{
-    justify-content: center;
-    align-items: center;
+#form {
+  justify-content: center;
+  align-items: center;
 }
 
 .my-btn {
@@ -39,33 +39,33 @@ button:hover {
   background-color: #1a2d35; /* slightly darker light blue on hover */
 }
 #form .my-btn:nth-child(2) {
-   margin-left: 20px;
-  }
+  margin-left: 20px;
+}
 
 #activity {
-    font-size: 20px;
-    border-radius: 5px;
+  font-size: 20px;
+  border-radius: 5px;
 }
 #grade {
-    font-size: 20px;
-    border-radius: 5px;
+  font-size: 20px;
+  border-radius: 5px;
 }
 #activityNo {
-    font-size: 20px;
-    border-radius: 5px;
+  font-size: 20px;
+  border-radius: 5px;
 }
 #weight {
-    font-size: 20px;
-    border-radius: 5px;
+  font-size: 20px;
+  border-radius: 5px;
 }
 
 table {
-  width: 100%;
-  display: flex;
+  width: 70%;
+  align-items: center;
   border-collapse: collapse;
   margin-top: 20px;
   justify-content: center;
-  text-align: center;
+  margin-left: 15%;
 }
 
 th,
@@ -78,7 +78,7 @@ td {
 th {
   background-color: #ebe8e8;
 }
-#container p{
-    margin-top: 20px;
-    color: red;
+#container p {
+  margin-top: 20px;
+  color: red;
 }
