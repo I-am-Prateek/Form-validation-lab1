@@ -8,11 +8,10 @@
 </head>
 <body>
     <div id="container">
-        <p id="my-msg"></p>
         <h1>Grade Calculator</h1>
 
         <form id="form">
-            <button type="button" onclick="myinsertfunction()">Add Activity</button>
+            <button class="my-btn" type="button" onclick="addactivity()">Add Activity</button>
 
             <label for="activity">Activity</label>
             <input type="text" id="activity" required>
@@ -20,35 +19,40 @@
             <label for="weight">Weight</label>
             <input type="text" id="weight" required>
             <br>
-            <button type="button" onclick="resmyinsertfunctionetForm()">Add Grade</button>
+            <br>
+            <button class="my-btn" type="button" onclick="addGrade()">Add Grade</button>
             <label for="grade">Grade</label>
             <input type="text" id="grade" required>
 
-            <label for="activityno">Activity No</label>
-            <input type="text" id="activityno" required>
+            <label for="activityNo">Activity No</label>
+            <input type="text" id="activityNo" required>
     </form>
-    <button type="button" onclick="resetForm()">Delete Activity</button>
+    <br>
+    <button class="my-btn" type="button" onclick="deleteActivity()">Delete Activity</button>
 
     <table id="table-data">
         <tr>
             <th>No</th>
-            <th>Activity</th>
-            <th>Percentage</th>
-            <th>Grade</th>
+            <th>Activity</th> <th>Weight</th>
+            <th>Grade</th> </tr>  
+        <tr>
+            <td>1</td> <td>Lab1</td>
+            <td>10</td> <td></td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>Lab1</td>
-            <td>10</td>
-            <td>10</td>
+            <td>2</td> <td>Lab2</td>
+            <td>20</td> <td></td>
         </tr>
         <tr>
-            <td>2</td>
-            <td>Lab2</td>
-            <td>20</td>
-            <td>40</td>
+            <td>3</td> <td>Test1</td>
+            <td>30</td> <td></td>
+        </tr>
+        <tr>
+            <td>4</td> <td>Test2</td>
+            <td>40</td> <td></td>
         </tr>
     </table>
+    <p id="my-msg"></p>
 
 
 </div>
